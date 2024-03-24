@@ -162,7 +162,7 @@ const AboutUs = () => {
     <div className="bg-white mb-16">
       <main className="isolate">
         <div className="mt-32 overflow-hidden sm:mt-40">
-          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+          <div className="mx-auto px-6 lg:flex lg:px-16">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
               <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -215,7 +215,7 @@ const AboutUs = () => {
         </div>
 
         {/* AboutUs */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+        <div className="mx-auto mt-32  px-6 sm:mt-40 lg:px-16">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Our success is built on a foundation of professionalism,

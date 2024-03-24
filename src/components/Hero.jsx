@@ -161,7 +161,7 @@ const Hero = () => {
   return (
     <div className="bg-white">
         <div className="relative">
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto px-16">
           <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
             <svg
               className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
@@ -229,7 +229,7 @@ const Hero = () => {
       <main className="isolate">
       
         {/* Logo cloud */}
-        <div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
+        <div className="mx-auto mt-32 px-6 sm:mt-40 sm:px-6 lg:px-16">
           <div className="relative isolate overflow-hidden bg-[#54ad62] px-6 py-12 text-center shadow-2xl sm:rounded-3xl sm:px-16">
           <h6 className="mx-auto max-w-2xl my-6 text-3xl font-bold tracking-tight text-gray-200 sm:text-3xl">
               Our Partners, Clients & Accreditations Love Us
@@ -275,7 +275,7 @@ const Hero = () => {
 
         {/* Content section */}
         <div className="mt-32 overflow-hidden sm:mt-40">
-          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+          <div className="mx-auto px-6 lg:flex lg:px-24">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
               <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -340,13 +340,13 @@ const Hero = () => {
        
       </main>
       <div class="bg-white shadow-3xl py-8 sm:py-8">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto px-16 lg:px-24">
       <div class="mx-auto max-w-2xl lg:text-center">
         <p class="mt-2 text-3xl font-bold tracking-tight text-[#54ad62] sm:text-4xl">
           Why Choose Rabokgadi VIP Protection & Intelligence Unit?
         </p>
       </div>
-      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-full lg:px-24">
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           <div class="relative pl-16">
             <dt class="text-base font-semibold leading-7 text-gray-900">
@@ -424,7 +424,7 @@ const Hero = () => {
     </div>
   </div>
   <div class="bg-white py-8 sm:py-8">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto px-16 lg:px-24">
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Our Services
@@ -603,7 +603,7 @@ const Hero = () => {
     </div>
   </div>
   <div class="bg-white py-8 sm:py-8">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="mx-auto px-16 lg:px-24">
     <div class="mx-auto max-w-2xl sm:text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
       <p class="mt-6 text-lg leading-8 text-gray-600">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>

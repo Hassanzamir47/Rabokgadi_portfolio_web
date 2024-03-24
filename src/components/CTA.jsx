@@ -12,13 +12,13 @@ const CTA = () => (
     <h1 class="mt-6 text-5xl leading-8 text-white pt-8 font-bold">Why Choose Us ? </h1>
   </div>
 </div>
-    <div class="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+    <div class="mx-auto px-6 py-8 lg:px-16">
       <div class="mx-auto max-w-2xl lg:text-center">
         <p class="mt-2 text-3xl font-bold tracking-tight text-[#54ad62] sm:text-4xl">
           Why Choose Rabokgadi VIP Protection & Intelligence Unit?
         </p>
       </div>
-      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           <div class="relative pl-16">
             <dt class="text-base font-semibold leading-7 text-gray-900">

@@ -2,11 +2,11 @@
 const Footer = () => (
   <footer class="bg-[#54ad62]" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
-  <div class="mx-auto max-w-7xl px-6 pb-8 pt-8 sm:pt-8 lg:px-8 lg:pt-12">
+  <div class="mx-auto  px-6 pb-8 pt-8 sm:pt-8 lg:px-16 lg:pt-12">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="space-y-8">
+      <div class="space-y-8 px-16 items-center">
         <img class="w-24" src="/images/1.png" alt="Company name"/>
-        <p class="text-sm leading-6 text-white"></p>
+        <p class="text-lg leading-6 text-white"></p>
         <div class="flex space-x-6">
           <a href="#" class="text-white hover:text-white">
             <span class="sr-only">Facebook</span>
@@ -44,55 +44,55 @@ const Footer = () => (
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
           <div class="text-center mt-8">
-    <h3 class="text-lg font-semibold text-black">Head Office</h3>
-    <p class="mt-4 text-white text-sm ">GAUTENG PROVINCE<br/>55 Richards Drive, Midrand, Gauteng</p>
-    <p class="mt-4 text-white text-sm">KZN PROVINCE<br/>12 Old Howich Rd, Wembley, Pietermaritzburg.</p>
-    <p class="mt-4 text-white text-sm">FREE STATE PROVINCE<br/>09 Pink Street Botshabelo, Industrial Park, Bloemfontein, 9781</p>
+    <p class="font-semibold text-white text-lg">Head Office</p>
+    <p class="mt-4 text-white text-lg ">GAUTENG PROVINCE<br/>55 Richards Drive, Midrand, Gauteng</p>
+    <p class="mt-4 text-white text-lg">KZN PROVINCE<br/>12 Old Howich Rd, Wembley, Pietermaritzburg.</p>
+    <p class="mt-4 text-white text-lg">FREE STATE PROVINCE<br/>09 Pink Street Botshabelo, Industrial Park, Bloemfontein, 9781</p>
 </div>
           </div>
           <div class="mt-10 md:mt-0">
-          <p class="mt-4 text-white text-sm">LIMPOPO PROVINCE<br/>25 Grobler Str, 47/48 Palm Centre, Polokwane, Limpopo</p>
-          <p class="mt-4 text-white text-sm">MPUMALANGA PROVINCE<br/>Finance Office Park, C/O Woltemade and Mandela Road, Witbank</p>
-    <p class="mt-4 text-white text-sm">EASTERN CAPE PROVINCE<br/>19 Park Road, Norwood, Mthatha, 5100</p>
-    <p class="mt-4 text-white text-sm">NORTH-WEST PROVINCE<br/>3349 Kagiso 1, Ledig, Rustenburg, North-West</p>
+          <p class="mt-4 text-white text-lg">LIMPOPO PROVINCE<br/>25 Grobler Str, 47/48 Palm Centre, Polokwane, Limpopo</p>
+          <p class="mt-4 text-white text-lg">MPUMALANGA PROVINCE<br/>Finance Office Park, C/O Woltemade and Mandela Road, Witbank</p>
+    <p class="mt-4 text-white text-lg">EASTERN CAPE PROVINCE<br/>19 Park Road, Norwood, Mthatha, 5100</p>
+    <p class="mt-4 text-white text-lg">NORTH-WEST PROVINCE<br/>3349 Kagiso 1, Ledig, Rustenburg, North-West</p>
           </div>
         </div>
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
-            <h3 class=" font-semibold leading-6 text-black">Company</h3>
+            <p class=" font-semibold leading-6 text-white text-lg">Company</p>
             <ul role="list" class="mt-6 space-y-4">
             <li>
-                <a href="/" class="text-sm leading-6 text-white hover:text-white">Home</a>
+                <a href="/" class="text-lg leading-6 text-white hover:text-white">Home</a>
               </li>
               <li>
-                <a href="/about" class="text-sm leading-6 text-white hover:text-white">About Us</a>
+                <a href="/about" class="text-lg leading-6 text-white hover:text-white">About Us</a>
               </li>
               <li>
-                <a href="/services" class="text-sm leading-6 text-white hover:text-white">Services</a>
+                <a href="/services" class="text-lg leading-6 text-white hover:text-white">Services</a>
               </li>
               <li>
-                <a href="/team" class="text-sm leading-6 text-white hover:text-white">Team</a>
+                <a href="/team" class="text-lg leading-6 text-white hover:text-white">Team</a>
               </li>
               <li>
-                <a href="/why-us" class="text-sm leading-6 text-white hover:text-white">Why Us</a>
+                <a href="/why-us" class="text-lg leading-6 text-white hover:text-white">Why Us</a>
               </li>
               
             </ul>
           </div>
           <div class="mt-10 md:mt-0">
-            <h3 class=" font-semibold leading-6 text-black">Contact Us</h3>
+            <p class=" font-semibold leading-6 text-white text-lg">Contact Us</p>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="#" class="text-sm leading-6 text-white hover:text-white">ops@rabokgadi.co.za</a>
+                <a href="#" class="text-lg leading-6 text-white hover:text-white">ops@rabokgadi.co.za</a>
               </li>
               <li>
-                <a href="#" class="text-sm leading-6 text-white hover:text-white">www.rabokgadi.co.za</a>
+                <a href="#" class="text-lg leading-6 text-white hover:text-white">www.rabokgadi.co.za</a>
               </li>
               <li>
-                <a href="#" class="text-sm leading-6 text-white hover:text-white">0860 766 642</a>
+                <a href="#" class="text-lg leading-6 text-white hover:text-white">0860 766 642</a>
               </li>
               <li>
-                <a href="#" class="text-sm leading-6 text-white hover:text-white">072 022 2273</a>
+                <a href="#" class="text-lg leading-6 text-white hover:text-white">072 022 2273</a>
               </li>
             </ul>
           </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50 bg-[#54ad62] py-4">
-        <div className="mx-auto max-w-7xl">
+        <div className="px-8">
           <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
             <nav
               className="flex items-center justify-between lg:justify-start"
@@ -39,7 +39,7 @@ const Navbar = () => {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-sm font-semibold leading-6 text-white"
+                    className="text-lg font-semibold leading-6 text-white"
                   >
                     {item.name}
                   </a>
@@ -77,7 +77,7 @@ const Navbar = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#54ad62]"
+                      className="-mx-3 block text-lg rounded-lg px-3 py-2  font-semibold leading-7 text-white hover:bg-[#54ad62]"
                     >
                       {item.name}
                     </a>

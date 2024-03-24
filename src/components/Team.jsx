@@ -15,7 +15,7 @@ const Team = () => {
     <h1 class="mt-6 text-5xl leading-8 text-white pt-8 font-bold">Our Ownerable Team </h1>
   </div>
 </div>
-       <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 lg:px-8">
+       <div className="mx-auto mt-16  px-6 sm:mt-20 lg:px-32">
           <div className="mx-auto flex max-w-2xl flex-col justify-between lg:mx-0 lg:max-w-none lg:flex-row">
             <div className="w-full lg:max-w-lg lg:flex-auto">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
